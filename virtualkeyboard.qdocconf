@@ -1,0 +1,22 @@
+#include(compat.qdocconf)
+#include(macros.qdocconf)
+#include(qt-cpp-ignore.qdocconf)
+#include(qt-html-templates.qdocconf)
+#include(qt-defines.qdocconf)
+
+project     = QtVirtualKeyboard
+versionsym  =
+version     = %VERSION%
+description = Qt virtual keyboard library
+url         = 
+
+language    = Cpp
+
+headerdirs  = src/library \
+              src/plugin
+sourcedirs  = src/library \
+              src/plugin
+
+exampledirs = src/example
+
+outputdir   = docs/html

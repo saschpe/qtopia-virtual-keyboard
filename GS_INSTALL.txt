@@ -1,0 +1,60 @@
+Installation guide
+==================
+
+This document gives information about the steps, which have to be taken to install 
+(or integrate) the partner solution into Qtopia.
+
+
+Installation How-to
+===================
+
+To build and install the Qt virtual keyboard library, change into the library's
+base directory and do the following steps:
+
+    $ mkdir build
+    $ cd build/
+    $ qmake ../virtualkeyboard.pro
+    $ make
+
+If you want to install the Qt virtual keyboad library or use the Designer plugin
+(you might need super-user rights):
+
+    $ make install
+
+
+Building for Qtopia involves different steps, change into the librarie's base
+directory and do the following steps:
+
+    $ $QPEDIR/bin/qtopiamake virtualkeyboard.pro
+    $ make
+    $ make install
+
+
+Examples
+========
+
+To build the examples after you have installed the library, change into the 
+librarie's base directory and do the following steps:
+
+    $ mkdir build-examples
+    $ cd build-examples
+    $ qmake ../src/examples/examples.pro
+    $ make
+    $ make install
+
+You should then be able to start the examples:
+
+    $ ./keypad/keypad
+    $ ./keyboard/keyboard
+
+
+API documentation
+=================
+
+To generate the API documenation you need to have Doxygen installed. Change into the 
+library's base directory and utilize:
+
+    $ doxygen
+
+You should then be able to find the generated API documentation in the 'docs' folder
+in the base directory as HTML or LaTex.

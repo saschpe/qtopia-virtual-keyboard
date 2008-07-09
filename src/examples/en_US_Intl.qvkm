@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<virtualkeyboardlayout version="1" name="US Intl">
+	<!-- 
+	A keyboard map consists of multiple virtual keys which have
+	up to four key unicode values set plus their visual representation.
+
+	Make sure that the <vkey /> 'name' attribute matches the widget name
+	you set for that specific virtual key, so that it can be found in 
+	your designed virtual keyboard.
+	-->
+	<vkey name="key_1">
+		<!-- 
+		Except <default /> the other tags are optional. A tag needs to 
+		have only the 'key' attribute set, 'text' can be generated from
+		'key' and 'icon' can superseede both if set. This allows for
+		maximum visual customization with minimun effort for most cases.
+
+		<default key="Qt::Key_Tab" text="Tab" icon="tab_icon" />
+
+		If you want to display no text, set 'text' to '""'.
+		You can do the same for 'icon' if you want to make clean you 
+		don't want one.
+
+		The 'key' attribute has to one from Qt::Key enum, the 'Qt::' is 
+		optional, so if you want to generate the Qt::Key_1 when a virtual
+		key is pressed, you can either use 'Qt::Key_1' or 'Key_1' as 'key'
+		attribute.
+		-->
+		<default key="Qt::Key_1" />
+		<shift key="Qt::Key_Exclam" />
+		<alt key="Qt::Key_onesuperior" text="¹" />
+		<altshift key="Qt::Key_exclamdown" />
+	</vkey>
+	<vkey name="key_2">
+		<default key="Qt::Key_2" />
+		<shift key="Qt::Key_At" />
+		<alt text="Qt::Key_twosuperior" />
+	</vkey>
+	<vkey name="key_3">
+		<default key="Qt::Key_3" />
+		<shift key="Qt::Key_NumberSign" text="#" />
+		<alt key="Qt::Key_threesuperior" />
+	</vkey>
+	<!-- 
+	...
+	-->
+	<vkey name="key_Backspace">
+		<default key="Qt::Key_Backspace" text="Backspace" />
+	</vkey>
+	<vkey name="key_Tab">
+		<default key="Qt::Key_Tab" text="Tab" />
+	</vkey>
+	<!-- 
+	...
+	-->
+	<vkey name="key_D">
+		<default key="Qt::Key_A" />
+	</vkey>
+	<!-- 
+	...
+	-->
+	<vkey name="key_Space">
+		<default key="Qt::Key_Space" text="" />
+	</vkey>
+</virtualkeyboardlayout>

@@ -1,0 +1,34 @@
+Release Notes
+=============
+
+This document gives information about version numbers and bug fixes/changes and patches.
+
+
+Version of the partner solution
+===============================
+
+Does not apply here
+
+
+Version of Qtopia component
+===========================
+
+Does not apply here
+
+
+Bug fixes/Changes
+=================
+
+None currently
+
+
+Patches for Qtopia
+==================
+
+No patches needed.
+
+
+Open/known issues
+=================
+
+Auto repeat for virtual keys is currently not implemented (but can be selected from the designer).

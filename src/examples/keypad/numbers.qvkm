@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<virtualkeyboardlayout version="1" name="Numbers">
+	<!-- 
+	A keyboard map consists of multiple virtual keys which have
+	up to four key unicode values set plus their visual representation.
+
+	Make sure that the <vkey /> 'name' attribute matches the widget name
+	you set for that specific virtual key, so that it can be found in 
+	your designed virtual keyboard.
+	-->
+	<vkey name="key_1"><default key="Qt::Key_1" /></vkey>
+	<vkey name="key_2"><default key="Qt::Key_2" /></vkey>
+	<vkey name="key_3"><default key="Qt::Key_3" /></vkey>
+	<vkey name="key_4"><default key="Qt::Key_4" /></vkey>
+	<vkey name="key_5"><default key="Qt::Key_5" /></vkey>
+	<vkey name="key_6"><default key="Qt::Key_6" /></vkey>
+	<vkey name="key_7"><default key="Qt::Key_7" /></vkey>
+	<vkey name="key_8"><default key="Qt::Key_8" /></vkey>
+	<vkey name="key_9"><default key="Qt::Key_9" /></vkey>
+	<vkey name="key_0"><default key="Qt::Key_0" /></vkey>
+</virtualkeyboardlayout>
