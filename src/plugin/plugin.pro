@@ -10,6 +10,7 @@ build_qtopia {
     INCLUDEPATH += ../library
     LIBS        += -L../library -lqtvirtualkeyboard
 
+    RESOURCES   += virtualkeyplugin.qrc
     HEADERS     += virtualkeyplugin.h \
                    virtualkeyinterface.h
     SOURCES     += virtualkeyplugin.cpp \

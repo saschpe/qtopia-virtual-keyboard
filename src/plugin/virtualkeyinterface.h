@@ -33,7 +33,7 @@ public:
     QString domXml() const;
     QString group() const { return "Buttons"; }
     QString includeFile() const { return "qtvirtualkeyboard/qvirtualkey.h"; }
-    QIcon icon() const { return QIcon(); } //TODO: Design custom icon
+    QIcon icon() const { return QIcon(":virtualkey.png"); }
     QString name() const { return "QVirtualKey"; }
     QString toolTip() const { return ""; }
     QString whatsThis() const { return ""; }
