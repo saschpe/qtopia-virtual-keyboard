@@ -38,7 +38,7 @@ librarie's base directory and do the following steps:
 
     $ mkdir build-examples
     $ cd build-examples
-    $ qmake ../src/examples/examples.pro
+    $ qmake ../examples/examples.pro
     $ make
     $ make install
 
@@ -56,5 +56,5 @@ library's base directory and utilize:
 
     $ doxygen
 
-You should then be able to find the generated API documentation in the 'docs' folder
+You should then be able to find the generated API documentation in the 'doc' folder
 in the base directory as HTML or LaTex.

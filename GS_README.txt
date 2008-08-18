@@ -29,10 +29,10 @@ Content of delivery
 
 The library is delived as source together with a designer plugin and examples.
 
-src/library   - Complete library source code (ready to be deployed)
-src/plugin    - Complete designer plugin source code (optional)
-src/examples  - Examples (optional)
-docs/         - API documentation (see GS_INSTALL.txt for details)
+src/library   - Library source code
+src/plugin    - Designer plugin source code (optional)
+examples      - Examples (optional)
+doc/          - API documentation (see GS_INSTALL.txt for details)
 
 
 Other available documents
@@ -40,7 +40,7 @@ Other available documents
 
 GS_INSTALL.txt       - Installation guide
 GS_RELEASE_NOTES.txt - Release Notes
-docs/                - API documentation (see GS_INSTALL.txt for details)
+doc/                 - API documentation (see GS_INSTALL.txt for details)
 
 
 User guide

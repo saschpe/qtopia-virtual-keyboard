@@ -12,11 +12,8 @@ url         =
 
 language    = Cpp
 
-headerdirs  = src/library \
-              src/plugin
-sourcedirs  = src/library \
-              src/plugin
+headerdirs  = src/library
+sourcedirs  = src/library
+exampledirs = examples
 
-exampledirs = src/example
-
-outputdir   = docs/html
+outputdir   = doc
